@@ -5,7 +5,7 @@ A tool for  generating Signature nowcasts with economic data.
 <img src ="signow_logo.png" alt="SigNow" width=400>
 ________________________________________________________________
 
-SigNow is a tool that allows you to generate nowcasts using the Signature Method. Nowcasting in economics is the prediction of the very recent past of an economic indicator. The Signature Method refers to a collection of feature extraction techniques for multivariate timeseries [Morrill et al., 2021](https://arxiv.org/pdf/2006.00873.pdf). There are many useful properties of the Signature Method for the nowcasting problem, for instance, it can be used flexibly with irregular sampling patterns often inherent in economic data and it can capture the correlation of a single/multiple data series when determining the Signature path.
+SigNow is a tool that generates nowcasts using the Signature Method. Nowcasting in economics is the prediction of the very recent past, or the present, of an economic indicator. The Signature Method is a collection of feature extraction techniques for multivariate timeseries [Morrill et al., 2021](https://arxiv.org/pdf/2006.00873.pdf). The Signature Method has many useful properties for nowcasting problems; for instance, it can be used flexibly with the irregular sampling patterns often inherent in economic data and it can capture the correlation of a single/multiple data series when determining the Signature path.
 
 To understand how SigNow is used within a nowcasting setting, you can find more detailed documentation in the signow_walkthrough notebook in the notebooks folder of this repository.
 
