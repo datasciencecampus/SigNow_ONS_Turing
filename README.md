@@ -117,7 +117,7 @@ _________________________________________________________________
 
 This project was generated from a collaboration with [The Alan Turing Institute](https://www.turing.ac.uk/) and [The Data Science Campus](https://datasciencecampus.ons.gov.uk/) at [The Office for National Statistics](https://www.ons.gov.uk/).
 
-Developers of this project include Craig Scott (ONS), Emma Small (ONS) and Lingyi Yang (The Alan Turing Institute). Lingyi Yang created the code in the signow/signature_functions folder which is used in the generation of the signature terms. The implemention of this repository is a modified version of the code used in the academic paper: Nowcasting with Signatures Methods (Cohen et al., 2023). The code that generates the outputs for this paper can be found [here](https://github.com/lingyiyang/nowcasting_with_signatures).
+Developers of this project include Craig Scott (ONS), Emma Small (ONS) and Lingyi Yang (The Alan Turing Institute). Lingyi Yang created the code in the signow/signature_functions folder which is used in the generation of the signature terms. The implementation of this repository is a modified version of the code used in the academic paper: Nowcasting with Signatures Methods (Cohen et al., 2023). The code that generates the outputs for this paper can be found [here](https://github.com/lingyiyang/nowcasting_with_signatures).
 
 Special thanks to Philip Lee (ONS) and Dylan Purches (ONS) for their valuable feedback and code review throughout this project.
 
