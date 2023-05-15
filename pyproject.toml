@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signow"
+version = "1.0.0"
+authors = [
+  { name="Data Science Campus", email="datacampus@ons.gov.uk" },
+]
+description = "Economic nowcasting with signatures."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "esig >= 0.9.8.3",
+    "matplotlib >= 3.5.3",
+    "numpy >= 1.21.5",
+    "pandas >= 1.3.5, < 2.0.0",
+    "scikit-learn >= 1.0.2",
+    "statsmodels >= 0.13.5"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Not intended for upload :: Install from source :: !",
+]
+
+[project.optional-dependencies]
+tests = [
+  "pytest",
+  "pytest-cov",
+  "hypothesis"
+]
+
+docs = [
+  "markdown-include==0.8.1",
+  "mkdocs==1.4.2",
+  "mkdocs-autorefs==0.4.1",
+  "mkdocs-gen-files==0.4.0",
+  "mkdocs-literate-nav==0.6.0",
+  "mkdocs-material==9.1.6",
+  "mkdocs-material-extensions==1.1.1",
+  "mkdocs-section-index==0.3.5",
+  "mkdocstrings==0.21.2",
+  "mkdocstrings-python==0.9.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/datasciencecampus/SigNow_ONS_Turing"

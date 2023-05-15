@@ -1,0 +1,31 @@
+site_name: ONS Turing Nowcasting
+
+theme:
+  name: material
+  logo: signow_logo.png
+  favicon: signow_favicon.png
+  palette:
+    primary: white
+nav:
+- Home: index.md
+- Code Reference: reference/
+
+markdown_extensions:
+    - markdown_include.include:
+        base_path: .
+
+plugins:
+- search  #
+- gen-files:
+    scripts:
+    - docs/gen_ref_pages.py
+- literate-nav:
+    nav_file: SUMMARY.md
+- section-index
+- mkdocstrings:
+      handlers:
+        python:
+          selection:
+            docstring_style: numpy
+          options:
+            show_source: true
