@@ -5,7 +5,7 @@ A tool for  generating Signature nowcasts with economic data.
 <img src ="signow_logo.png" alt="SigNow" width=400>
 ________________________________________________________________
 
-SigNow is a tool that generates nowcasts using the Signature Method. Nowcasting in economics is the prediction of the very recent past, or the present, of an economic indicator. The Signature Method is a collection of feature extraction techniques for multivariate timeseries [Morrill et al., 2021](https://arxiv.org/pdf/2006.00873.pdf). The Signature Method has many useful properties for nowcasting problems; for instance, it can be used flexibly with the irregular sampling patterns often inherent in economic data and it can capture the correlation of a single/multiple data series when determining the Signature path.
+SigNow is a tool that generates nowcasts using the Signature Method. Nowcasting in economics is the inference of the recent past or the present, of economic indicators (which often have a publication delay of over a month). The path signature is a mathematical object with desirable approximation properties and has been shown as effective features in other multivariate timeseries applications ([Morrill et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32897664/)). The signature has many useful properties for nowcasting problems; for instance, it can be used flexibly with the irregular sampling patterns often inherent in economic data and it can capture the correlation of a single/multiple data series. The exploration of this method for nowcasting can be found in the paper Nowcasting with signature methods ([Cohen et al., 2023](https://arxiv.org/pdf/2305.10256.pdf)).
 
 To understand how SigNow is used within a nowcasting setting, you can find more detailed documentation in the signow_walkthrough notebook in the notebooks folder of this repository.
 
@@ -14,7 +14,7 @@ _________________________________________________________________
 
 You can find a list of the direct dependencies, with versions, in the pyproject.toml file.
 
-During development the project ran on `Python 3.7` with the following versions for the main dependencies:
+During development, the project ran on `Python 3.7` with the following versions for the main dependencies:
 
 | Library | Version |
 | ------- | ------- |
@@ -117,7 +117,7 @@ _________________________________________________________________
 
 This project was generated from a collaboration with [The Alan Turing Institute](https://www.turing.ac.uk/) and [The Data Science Campus](https://datasciencecampus.ons.gov.uk/) at [The Office for National Statistics](https://www.ons.gov.uk/).
 
-Developers of this project include Craig Scott (ONS), Emma Small (ONS) and Lingyi Yang (The Alan Turing Institute). Lingyi Yang created the code in the signow/signature_functions folder which is used in the generation of the signature terms. The implementation of this repository is a modified version of the code used in the academic paper: Nowcasting with Signatures Methods (Cohen et al., 2023). The code that generates the outputs for this paper can be found [here](https://github.com/lingyiyang/nowcasting_with_signatures).
+Developers of this project include Craig Scott (ONS), Emma Small (ONS) and Lingyi Yang (The Alan Turing Institute). Lingyi Yang created the code in the signow/signature_functions folder which is used in the extraction of the signature terms. The implementation of this repository is a modified version of the code used in the paper: Nowcasting with Signatures Methods ([Cohen et al., 2023](https://arxiv.org/pdf/2305.10256.pdf)). The code that generates the outputs for this paper can be found [here](https://github.com/alan-turing-institute/Nowcasting_with_signatures).
 
 Special thanks to Philip Lee (ONS) and Dylan Purches (ONS) for their valuable feedback and code review throughout this project.
 
